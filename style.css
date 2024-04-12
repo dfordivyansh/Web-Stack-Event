@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body{
+    background-image: linear-gradient(rgba(9, 5, 54,0.3),rgba(5, 4, 46, 0.7)), url("images/background.webp");
+    background-size: cover;
+}
+.header{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    position: fixed;
+}
+.header img{
+    width: 8%;
+}
+.event_name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.event_name h1{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: rgb(26, 7, 78);
+}
+.event_name p{
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgb(48, 12, 150);
+    padding: 10px;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.desc h1{
+    font-size: 2.5rem;
+    color: aquamarine;
+    text-align: center;
+    margin-top: 150px;
+    -webkit-text-stroke: 2.5px #000;
+
+}
+.desc p{
+    color: #fff;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.btn button{
+    background-color: rgb(155, 20, 20);
+    border: none;
+    padding: 15px;
+    border-radius: 6px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 10px;
+    margin: 10px;
+    width: 260px;
+}
+.btn a{
+    color: #fff;    
+    text-decoration: none;
+}
